@@ -1,0 +1,57 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Consultation - Paradigm Pet Professionals</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+<header class="header">
+  <div class="bar">
+    <div class="brand">
+      <img src="logo.jpg" alt="Paradigm Pet Professionals logo"/>
+      <span>Paradigm Pet Professionals</span>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="#">Pet Care ▾</a>
+        <div class="dropdown-menu">
+          <a href="cats.html">Cats</a>
+          <a href="dogs.html">Dogs</a>
+          <a href="birds.html">Birds</a>
+        </div>
+      </div>
+      <a href="consult.html">Services/Contact</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <div class="breadcrumb"><a href="index.html">Home</a> / Consultation</div>
+  <h1 class="page-title">Schedule a Consultation</h1>
+  <p>Please fill out the form below. We will contact you within 48 hours to schedule your consultation. All fields are required.</p>
+  <form id="consultForm" class="content" novalidate>
+    <div class="form-row">
+      <div class="form-field"><label for="name">Name *</label><input id="name" name="name" required></div>
+      <div class="form-field"><label for="phone">Phone *</label><input id="phone" name="phone" required></div>
+    </div>
+    <div class="form-row">
+      <div class="form-field"><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
+      <div class="form-field"><label for="tz">Time Zone *</label><select id="tz" name="tz" required>
+        <option value="">Select</option><option>Pacific</option><option>Mountain</option><option>Central</option><option>Eastern</option>
+      </select></div>
+    </div>
+    <div class="form-row">
+      <div class="form-field"><label for="petname">Pet's Name *</label><input id="petname" name="petname" required></div>
+      <div class="form-field"><label for="pettype">Pet Type *</label><select id="pettype" name="pettype" required>
+        <option value="">Select</option><option>Cat</option><option>Dog</option><option>Bird</option><option>Fish</option><option>Small Animal</option>
+      </select></div>
+      <div class="form-field"><label for="petage">Pet Age *</label><input id="petage" name="petage" required></div>
+    </div>
+    <button type="submit">Request Consultation</button>
+  </form>
+  <div id="thankyou" class="content hidden"><h3>Thank you!</h3><p>Thank you for contacting Paradigm Pet Professionals. A consultant will reach out within 48 hours to schedule your consultation.</p></div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div>Contact: info@paradigmpetprofessionals.com | (800) 555-5555</div>
+    <div><a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">Instagram</a></div>
+    <div>© 2025 Paradigm Pet Professionals</div>
+  </div>
+</footer>
+<script src="scripts.js"></script></body></html>
