@@ -1,6 +1,6 @@
 # Paradigm Pet Professionals Website Redesign  
 
-This project is a responsive, multi-page prototype developed as part of my UI/UX redesign project for a course at WGU. IT is designed for **Paradigm Pet Professionals**, a hypothetical virtual pet consultation company. The prototype replaces a 10-year-old website with a modern, accessible, and user-centered design.  
+This project is a responsive, multi-page prototype developed as part of my UI/UX redesign project for a course at WGU. IT is designed for **Paradigm Pet Professionals**, a hypothetical virtual pet consultation company. The prototype replaces a 10-year-old website with a modern, accessible, and user-centered design. [link to website redesign](https://favio101.github.io/Pet-Care-Website/)
 
 ## Features  
 - **Multi-Page Structure**: Home, Cats, Dogs, Birds, and Consultation pages.  
